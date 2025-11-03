@@ -9,6 +9,11 @@ public class HelloWorld{
     }
 }
 
+
+#if curl is not in windows
+winget install curl
+
+
 pipeline {
     agent any
 
@@ -25,4 +30,5 @@ pipeline {
         }
     }
 }
+
 
